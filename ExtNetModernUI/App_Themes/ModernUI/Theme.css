@@ -1,0 +1,155 @@
+﻿BODY
+{
+    font-family: Segoe UI Light;
+    color: #ffffff;
+}
+.x-plain-header .x-tool-close
+{
+    display: none;
+}
+.x-column-padding
+{
+    padding: 20px 0px 20px 20px;
+}
+.x-img-metro
+{
+    padding-top:30px;
+    padding-left:42px;
+    width: 120px;
+    height: 120px;
+    cursor: pointer;
+}
+.x-img-metro-double
+{
+	padding-left: 90px;
+}
+.x-img-metro-east
+{
+    padding-top:5px;
+    padding-left:5px;
+    width: 64px;
+    height: 64px;
+    cursor: pointer;
+}
+.x-lbl-metro
+{
+    color:white;
+    font-family: Segoe UI Light;
+    font-size:17px;
+    font-weight:bold;
+    padding-left:15px;
+}
+.x-lbl-metro-img
+{
+    position:relative;
+    top:150px;
+}
+.x-panel-metro
+{
+    background-color: Transparent;
+    background-image: url('backgrounds/bkgr_squares.jpg'); 
+    background-repeat:repeat;
+}
+.east-panel-metro .x-layout-collapsed-east
+{
+    background-color: Transparent;
+    border:0px;
+}
+.east-panel-body
+{
+    background-color:#111;
+    padding-top:90px;
+}
+.x-panel-setting
+{
+    text-align:center;
+    padding-top:10px;
+    padding-bottom: 10px;
+    font-size:18px
+}
+.x-panel-setting-over
+{
+    background-color: #333333;
+}
+.x-win-metro
+{
+    background-color: #111111;
+    padding-top:22px;
+    padding-left:40px
+}
+.x-notification-metro
+{
+    background-color: #111111;
+    padding: 10px;
+    font-size: 26px;
+}
+.x-transp
+{
+    -moz-opacity:.80; 
+    filter:alpha(opacity=80); 
+    opacity:.80;
+}
+.x-fulltransp
+{
+    background-color: transparent;
+}
+.tile-tea
+{
+    background-color:#00889E;
+    background-image: linear-gradient(left , rgb(0,130,153) 26%, rgb(0,147,166) 58%, rgb(0,162,177) 78%);
+    background-image: -o-linear-gradient(left , rgb(0,130,153) 26%, rgb(0,147,166) 58%, rgb(0,162,177) 78%);
+    background-image: -moz-linear-gradient(left , rgb(0,130,153) 26%, rgb(0,147,166) 58%, rgb(0,162,177) 78%);
+    background-image: -webkit-linear-gradient(left , rgb(0,130,153) 26%, rgb(0,147,166) 58%, rgb(0,162,177) 78%);
+    background-image: -ms-linear-gradient(left , rgb(0,130,153) 26%, rgb(0,147,166) 58%, rgb(0,162,177) 78%);
+    background-image: -webkit-gradient(linear, left top, right top, color-stop(0.26, rgb(0,130,153)), color-stop(0.58, rgb(0,147,166)), color-stop(0.78, rgb(0,162,177)));
+}
+.tile-cyan
+{
+    background-color:#2E8CF0;
+    background-image: linear-gradient(left , rgb(58,127,238) 19%, rgb(42,127,238) 50%, rgb(47,140,239) 91%);
+    background-image: -o-linear-gradient(left , rgb(58,127,238) 19%, rgb(42,127,238) 50%, rgb(47,140,239) 91%);
+    background-image: -moz-linear-gradient(left , rgb(58,127,238) 19%, rgb(42,127,238) 50%, rgb(47,140,239) 91%);
+    background-image: -webkit-linear-gradient(left , rgb(58,127,238) 19%, rgb(42,127,238) 50%, rgb(47,140,239) 91%);
+    background-image: -ms-linear-gradient(left , rgb(58,127,238) 19%, rgb(42,127,238) 50%, rgb(47,140,239) 91%);
+    background-image: -webkit-gradient(linear, left top, right top, color-stop(0.19, rgb(58,127,238)), color-stop(0.5, rgb(42,127,238)), color-stop(0.91, rgb(47,140,239)));
+}
+.tile-green
+{
+    background-color:#008C00;
+    background-image: linear-gradient(left , rgb(0,138,23) 20%, rgb(0,152,25) 54%, rgb(0,166,28) 82%);
+    background-image: -o-linear-gradient(left , rgb(0,138,23) 20%, rgb(0,152,25) 54%, rgb(0,166,28) 82%);
+    background-image: -moz-linear-gradient(left , rgb(0,138,23) 20%, rgb(0,152,25) 54%, rgb(0,166,28) 82%);
+    background-image: -webkit-linear-gradient(left , rgb(0,138,23) 20%, rgb(0,152,25) 54%, rgb(0,166,28) 82%);
+    background-image: -ms-linear-gradient(left , rgb(0,138,23) 20%, rgb(0,152,25) 54%, rgb(0,166,28) 82%);
+    background-image: -webkit-gradient(linear, left bottom, right bottom, color-stop(0.2, rgb(0,138,23)), color-stop(0.54, rgb(0,152,25)), color-stop(0.82, rgb(0,166,28)));
+}
+.tile-purple
+{
+    background-color:#A400AB;
+    background-image: linear-gradient(left , rgb(139,0,149) 20%, rgb(155,0,163) 54%, rgb(168,0,174) 82%);
+    background-image: -o-linear-gradient(left , rgb(139,0,149) 20%, rgb(155,0,163) 54%, rgb(168,0,174) 82%);
+    background-image: -moz-linear-gradient(left , rgb(139,0,149) 20%, rgb(155,0,163) 54%, rgb(168,0,174) 82%);
+    background-image: -webkit-linear-gradient(left , rgb(139,0,149) 20%, rgb(155,0,163) 54%, rgb(168,0,174) 82%);
+    background-image: -ms-linear-gradient(left , rgb(139,0,149) 20%, rgb(155,0,163) 54%, rgb(168,0,174) 82%);
+    background-image: -webkit-gradient(linear, left bottom, right bottom, color-stop(0.2, rgb(139,0,149)), color-stop(0.54, rgb(155,0,163)), color-stop(0.82, rgb(168,0,174)));
+}
+.tile-magenta
+{
+    background-color: #AC193D;
+    background-image: linear-gradient(left , rgb(172,25,62) 20%, rgb(183,28,69) 54%, rgb(191,30,76) 82%);
+    background-image: -o-linear-gradient(left , rgb(172,25,62) 20%, rgb(183,28,69) 54%, rgb(191,30,76) 82%);
+    background-image: -moz-linear-gradient(left , rgb(172,25,62) 20%, rgb(183,28,69) 54%, rgb(191,30,76) 82%);
+    background-image: -webkit-linear-gradient(left , rgb(172,25,62) 20%, rgb(183,28,69) 54%, rgb(191,30,76) 82%);
+    background-image: -ms-linear-gradient(left , rgb(172,25,62) 20%, rgb(183,28,69) 54%, rgb(191,30,76) 82%);
+    background-image: -webkit-gradient(linear, left bottom, right bottom, color-stop(0.2, rgb(172,25,62)), color-stop(0.54, rgb(183,28,69)), color-stop(0.82, rgb(191,30,76)));
+}
+.tile-blue
+{
+    background-color:  #5133AB;
+    background-image: linear-gradient(left , rgb(81,51,171) 20%, rgb(92,57,182) 54%, rgb(101,62,191) 82%);
+    background-image: -o-linear-gradient(left , rgb(81,51,171) 20%, rgb(92,57,182) 54%, rgb(101,62,191) 82%);
+    background-image: -moz-linear-gradient(left , rgb(81,51,171) 20%, rgb(92,57,182) 54%, rgb(101,62,191) 82%);
+    background-image: -webkit-linear-gradient(left , rgb(81,51,171) 20%, rgb(92,57,182) 54%, rgb(101,62,191) 82%);
+    background-image: -ms-linear-gradient(left , rgb(81,51,171) 20%, rgb(92,57,182) 54%, rgb(101,62,191) 82%);
+    background-image: -webkit-gradient(linear, left bottom, right bottom, color-stop(0.2, rgb(81,51,171)), color-stop(0.54, rgb(92,57,182)), color-stop(0.82, rgb(101,62,191)));
+}
