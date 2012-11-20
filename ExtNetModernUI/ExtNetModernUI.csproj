@@ -71,7 +71,9 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="App_Themes\ModernUI\Backgrounds\bkgr_circles.png" />
-    <Content Include="App_Themes\ModernUI\Backgrounds\bkgr_cuts.jpg" />
+    <Content Include="App_Themes\ModernUI\Backgrounds\bkgr_clover.png" />
+    <Content Include="App_Themes\ModernUI\Backgrounds\bkgr_cuts.png" />
+    <Content Include="App_Themes\ModernUI\Backgrounds\bkgr_flower.png" />
     <Content Include="App_Themes\ModernUI\Backgrounds\bkgr_island.png" />
     <Content Include="App_Themes\ModernUI\Backgrounds\bkgr_lines.png" />
     <Content Include="App_Themes\ModernUI\Backgrounds\bkgr_plugs.png" />

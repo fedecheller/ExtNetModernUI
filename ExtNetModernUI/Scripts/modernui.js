@@ -49,7 +49,7 @@ var notifyDate = function (html) {
         height: 150,
         width: 450,
         unstyled: true,
-        bodyCssClass: 'x-notification-metro x-transp',
+        bodyCssClass: 'x-notification-metro',
         shim: false
     });
 };

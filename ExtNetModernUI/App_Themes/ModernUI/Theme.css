@@ -47,7 +47,7 @@
 .x-panel-metro
 {
     background-color: Transparent;
-    background-image: url('backgrounds/bkgr_squares.jpg'); 
+    background-image: url('backgrounds/bkgr_squares.png'); 
     background-repeat:repeat;
 }
 .east-panel-metro .x-layout-collapsed-east
