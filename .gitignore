@@ -5,7 +5,7 @@
 *.pydevproject
 .project
 .metadata
-bin/
+#bin/
 tmp/
 *.tmp
 *.bak
@@ -97,7 +97,7 @@ DocProject/Help/html
 publish
 
 # Others
-[Bb]in
+#[Bb]in
 [Oo]bj
 sql
 TestResults
@@ -140,7 +140,7 @@ dist
 build
 eggs
 parts
-bin
+#bin
 var
 sdist
 develop-eggs
