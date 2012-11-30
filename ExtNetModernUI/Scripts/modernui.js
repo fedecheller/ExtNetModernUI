@@ -76,6 +76,32 @@ var notifyUser = function () {
         shim: false
     });
 };
+var notifyHour = function () {
+    Ext.net.Notification.show({
+        showFx: {
+            args: [{ duration: 0.5}],
+            fxName: 'fadeIn'
+        },
+        alignToCfg: {
+            offset: [-20, 50],
+            position: 'br-br'
+        },
+        pinEvent: 'none',
+        html: getHourFormat(),
+        height: 80,
+        width: 150,
+        header: false,
+        autoHide: false,
+        closeVisible: true,
+        unstyled: true,
+        plain: true,
+        bodyCssClass: 'x-lbl-metro',
+        shim: false
+    });
+};
+function getHourFormat() {
+    return "<table style='width:100%'><tr><td style='font-size: 14px;text-align:right'>" + new Date().dateFormat('H:i') + "</td><td></td></tr></table>";
+}
 function getDateFormat() {
     return "<table style='width:100%'><tr><td style='font-size: 90px;text-align:right'>" + new Date().dateFormat('H.i') + "</td><td style='font-size: 32px'>" + new Date().dateFormat('d M') + "</br>" + new Date().dateFormat('Y') + "</td></tr></table>";
 };

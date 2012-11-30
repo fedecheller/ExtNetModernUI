@@ -1,6 +1,6 @@
 ﻿BODY
 {
-    font-family: Segoe UI Light;
+    font-family: Segoe UI Light, Segoe UI !important;
     color: #ffffff;
 }
 .x-plain-header .x-tool-close
@@ -23,6 +23,10 @@
 {
 	padding-left: 90px;
 }
+.x-img-metro-double-full
+{
+    width: 240px;
+}
 .x-img-metro-east
 {
     padding-top:5px;
@@ -31,10 +35,14 @@
     height: 64px;
     cursor: pointer;
 }
+.x-img-metro-start
+{
+    cursor: pointer;
+}
 .x-lbl-metro
 {
     color:white;
-    font-family: Segoe UI Light;
+    font-family: Segoe UI Light, Segoe UI;
     font-size:17px;
     font-weight:bold;
     padding-left:15px;
@@ -47,7 +55,7 @@
 .x-panel-metro
 {
     background-color: Transparent;
-    background-image: url('backgrounds/bkgr_squares.png'); 
+    background-image: url('backgrounds/bkgr_circles.png'); 
     background-repeat:repeat;
 }
 .east-panel-metro .x-layout-collapsed-east
@@ -152,4 +160,86 @@
     background-image: -webkit-linear-gradient(left , rgb(81,51,171) 20%, rgb(92,57,182) 54%, rgb(101,62,191) 82%);
     background-image: -ms-linear-gradient(left , rgb(81,51,171) 20%, rgb(92,57,182) 54%, rgb(101,62,191) 82%);
     background-image: -webkit-gradient(linear, left bottom, right bottom, color-stop(0.2, rgb(81,51,171)), color-stop(0.54, rgb(92,57,182)), color-stop(0.82, rgb(101,62,191)));
+}
+
+/***** DESKTOP *********/
+.start-button {
+    background-image: url(vista_start_button.gif) !important;
+}
+        
+.desktopEl {
+    position: absolute !important;
+}
+.start
+{
+    width:0px !important;
+}
+.x-window-dlg
+{
+    display: none !important;
+}     
+.ux-start-menu
+{
+    background : none;
+    width: 180px;
+    overflow: hidden;
+    border: 0px !important;
+}
+.ux-start-menu-apps-panel, .ux-start-menu-tl, .x-menu-list, .ux-start-menu-ml, .ux-start-menu-bc, .ux-start-menu-bl, .ux-start-menu-br, .ux-start-menu-tr, .ux-start-menu-tc
+{
+    background : none;
+    background-color: #1d1d1d !important;
+    border: 0px !important;
+    -moz-opacity:.90; 
+    filter:alpha(opacity=90); 
+    opacity:.90;
+}
+.x-window-header-text
+{
+    font-family: Segoe UI Light;
+}
+.shortcut-icon-desk 
+{
+    width: 48px;
+    height: 48px;
+}
+.icon-desk-trash 
+{
+    background-image: url('images/icon.desk.trash.png') !important;
+}
+.icon-desk-explorer 
+{
+    background-image: url('images/icon.desk.explorer.png') !important;
+}
+#dskModTrash-shortcut a,  #dskModExplorer-shortcut a 
+{
+	padding:5px;
+	border: transparent 1px solid !important;
+}
+#dskModTrash-shortcut a:hover, #dskModExplorer-shortcut a:hover
+{
+    border: #CFF1FB 1px solid !important;
+    background-color: #ddd !important;
+     -moz-opacity:.80; 
+    filter:alpha(opacity=80); 
+    opacity:.80;
+}
+.ux-taskbutton-left, .ux-taskbutton-center, .ux-taskbutton-right
+{
+    background: #457FA7 none !important;
+}
+.ux-startbutton-left, .ux-startbutton-center, .ux-startbutton-right
+{
+    background: transparent none !important;
+}
+.ux-startbutton-center
+{
+    display:none !important;
+}
+.start
+{
+    background-image: none !important;
+}
+#TaskBarStart-xsplit {
+	display: none;
 }

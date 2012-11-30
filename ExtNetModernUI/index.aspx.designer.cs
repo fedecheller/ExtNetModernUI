@@ -148,6 +148,15 @@ namespace ExtNetModernUI {
         protected global::Ext.Net.Portlet portletDesktop;
         
         /// <summary>
+        /// imgDesktop control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::Ext.Net.Image imgDesktop;
+        
+        /// <summary>
         /// lblDesktop control.
         /// </summary>
         /// <remarks>
@@ -434,6 +443,15 @@ namespace ExtNetModernUI {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::Ext.Net.Portlet portletNews;
+        
+        /// <summary>
+        /// imgNews control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::Ext.Net.Image imgNews;
         
         /// <summary>
         /// lblNews control.

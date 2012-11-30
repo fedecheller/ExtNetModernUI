@@ -63,7 +63,13 @@
                                         </ext:Portlet>
                                         <ext:Portlet ID="portletDesktop" runat="server" Width="350" Collapsible="false" Header="false" Unstyled="true" Frame="false" Border="false" HideBorders="true" BodyStyle="background-image:url('App_Themes/ModernUI/Images/tile.desktop.png')" Height="200">
                                             <Items>
-                                                <ext:Label ID="lblDesktop" runat="server" Html="Desktop" Cls="x-lbl-metro x-lbl-metro-img"></ext:Label>
+                                                <ext:Image ID="imgDesktop" runat="server" ImageUrl="App_Themes/ModernUI/Images/blank.gif" Cls="x-img-metro x-img-metro-double x-img-metro-double-full">
+                                                    <Listeners>
+                                                        <Click Handler="document.location.href='desktop.aspx'" />
+                                                    </Listeners>
+                                                </ext:Image>
+                                                <ext:Label runat="server" Html="<br />"></ext:Label>
+                                                <ext:Label ID="lblDesktop" runat="server" Html="Desktop" Cls="x-lbl-metro"></ext:Label>
                                             </Items>
                                         </ext:Portlet>
                                     </Items>
@@ -191,7 +197,13 @@
                                     </ext:Portlet>
                                     <ext:Portlet ID="portletNews" runat="server" Width="350" Collapsible="false" Header="false" Unstyled="true" Frame="false" Border="false" HideBorders="true" BodyStyle="background-image:url('App_Themes/ModernUI/Images/tile.news.png')" Height="200">
                                         <Items>
-                                            <ext:Label ID="lblNews" runat="server" Html="News" Cls="x-lbl-metro x-lbl-metro-img"></ext:Label>
+                                            <ext:Image ID="imgNews" runat="server" ImageUrl="App_Themes/ModernUI/Images/blank.gif" Cls="x-img-metro x-img-metro-double x-img-metro-double-full">
+                                                <Listeners>
+                                                    <Click Handler="notifyEvent('NEWS')" />
+                                                </Listeners>
+                                            </ext:Image>
+                                            <ext:Label runat="server" Html="<br />"></ext:Label>
+                                            <ext:Label ID="lblNews" runat="server" Html="News" Cls="x-lbl-metro"></ext:Label>
                                         </Items>
                                     </ext:Portlet>
                                 </Items>
