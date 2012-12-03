@@ -1,8 +1,19 @@
 ﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="index.aspx.cs" Inherits="ExtNetModernUI.index" Theme="ModernUI" %>
 <%@ Register Assembly="Ext.Net" Namespace="Ext.Net" TagPrefix="ext" %>
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml">
+<html lang="en">
 <head runat="server">
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=1800, height=1300, user-scalable=yes"/>
+    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="App_Themes/ModernUI/Images/apple-touch-icon-144x144-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="App_Themes/ModernUI/Images/apple-touch-icon-114x114-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="App_Themes/ModernUI/Images/apple-touch-icon-72x72-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" href="App_Themes/ModernUI/Images/apple-touch-icon-precomposed.png">
+    <link rel="icon" href="favicon.ico" type="image/x-icon" />
+    <meta name="keywords" content="HTML, CSS, ASP.NET, EXT.NET, JavaScript, METRO, MODERNUI, WINDOWS8, Ext.js, cheller.info, desktop, live, tile, modern ui" />
+	<meta name="description" content="Ext.Net Modern UI Interface Project" />
+	<meta name="author" content="cheller.info" />
+    <meta name="copyright" content="cheller.info Copyright (c) 2012" />
     <title>Ext.Net - Modern UI</title>
     <script src="Scripts/modernui.js" type="text/javascript" language="javascript"></script>
     <ext:XScript ID="XScript1" runat="server">
@@ -17,7 +28,7 @@
         </script>
     </ext:XScript>
 </head>
-<body>
+<body class="body-ease-in body-ease-in-right">
     <form id="form1" runat="server">
         <ext:ResourceManager ID="rsm" runat="server">
             <Listeners>

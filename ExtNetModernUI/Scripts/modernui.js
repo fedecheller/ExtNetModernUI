@@ -83,7 +83,7 @@ var notifyHour = function () {
             fxName: 'fadeIn'
         },
         alignToCfg: {
-            offset: [-20, 50],
+            offset: [-50, 50],
             position: 'br-br'
         },
         pinEvent: 'none',

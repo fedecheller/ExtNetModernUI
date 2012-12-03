@@ -243,3 +243,91 @@
 #TaskBarStart-xsplit {
 	display: none;
 }
+.ext-shim
+{
+    display: none !important;
+}
+/* PAGE TRANSITIONS */
+.body-ease-in {
+    position: relative;
+
+    animation-iteration-count: once;
+    animation-timing-function: ease-in;
+    animation-duration: 0.5s;
+    animation-delay:0.5s;
+
+    -moz-animation-iteration-count: once;
+    -moz-animation-timing-function: ease-in;
+    -moz-animation-duration: 0.3s;
+    -moz-animation-delay:0.5s;
+
+    -webkit-animation-iteration-count: once;
+    -webkit-animation-timing-function: ease-in;
+    -webkit-animation-duration: 0.3s;
+    -webkit-animation-delay:0.5s;
+}
+.body-ease-in-left
+{
+    animation-name: dropHeaderLeft;
+    -moz-animation-name: dropHeaderLeft;
+    -webkit-animation-name: dropHeaderLeft;
+}
+
+.body-ease-in-right
+{
+    animation-name: dropHeaderRight;
+    -moz-animation-name: dropHeaderRight;
+    -webkit-animation-name: dropHeaderRight;
+}
+
+@keyframes dropHeaderLeft
+{
+0% {
+        left: -100px;
+    }
+    100% {
+        left: 0;
+    }
+}
+@-moz-keyframes dropHeaderLeft {
+    0% {
+        left: -100px;
+    }
+    100% {
+        left: 0;
+    }
+}
+@-webkit-keyframes dropHeaderLeft {
+    0% {
+        left: -100px;
+    }
+    100% {
+        left: 0;
+    }
+}
+
+@keyframes dropHeaderRight
+{
+0% {
+        right: -100px;
+    }
+    100% {
+        right: 0;
+    }
+}
+@-moz-keyframes dropHeaderRight {
+    0% {
+        right: -100px;
+    }
+    100% {
+        right: 0;
+    }
+}
+@-webkit-keyframes dropHeaderRight {
+    0% {
+        right: -100px;
+    }
+    100% {
+        right: 0;
+    }
+}

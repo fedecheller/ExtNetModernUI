@@ -86,6 +86,10 @@
     <Content Include="App_Themes\ModernUI\Images\appbar.os.windows.8.png" />
     <Content Include="App_Themes\ModernUI\Images\appbar.settings.png" />
     <Content Include="App_Themes\ModernUI\Images\appbar.share.png" />
+    <Content Include="App_Themes\ModernUI\Images\apple-touch-icon-114x114-precomposed.png" />
+    <Content Include="App_Themes\ModernUI\Images\apple-touch-icon-144x144-precomposed.png" />
+    <Content Include="App_Themes\ModernUI\Images\apple-touch-icon-72x72-precomposed.png" />
+    <Content Include="App_Themes\ModernUI\Images\apple-touch-icon-precomposed.png" />
     <Content Include="App_Themes\ModernUI\Images\blank.gif" />
     <Content Include="App_Themes\ModernUI\Images\ext-modernui\box\corners-blue.gif" />
     <Content Include="App_Themes\ModernUI\Images\ext-modernui\box\corners.gif" />
